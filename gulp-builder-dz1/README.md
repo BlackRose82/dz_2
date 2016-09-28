@@ -1,7 +1,8 @@
-#Сборка от Loftschool - Shapira Cristina (версия 2)
+#Верстка от Loftschool - Shapira Cristina (версия 2)
 
 Stack:
- - Gulp 4.0
+ - Jade
+ - Sass
  
 Getting started:
 
