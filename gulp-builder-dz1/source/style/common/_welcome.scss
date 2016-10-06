@@ -1,6 +1,83 @@
 .welcome {
 	display: flex;
-	background: url('../images/fon.png') no-repeat;
+    position: relative;
+	background: url('../img/fon.png') no-repeat;
 	background-size: cover;
+	height: 100vh;
+    
+
+}
+.welcome-block{
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	position: relative;
+	margin: auto;
+	margin-top: 140px;
+	min-width: 380px;
+	background: #1c2c49;
+    
+
+	
+	.my-avatar__img{
+		margin: auto;
+		margin-top: 42px;
+		width: 142px;
+		height: 142px;
+		border-radius: 50% 50%;
+		text-align: center;
+		overflow: hidden;
+	}
+		img {
+			width: 100%;
+		}
+			.my-avatar__name{
+				
+			}
+				 .title{
+                    font-size: 16px;
+                    font-family: roboto-regular, sans-serif;
+                    color: #fff;
+                    margin-top: 0px;
+					 }
+					 .name{
+						font-size: 35px;
+                        font-family: roboto-medium, sans-serif;
+                         color: #fff;
+						// margin-bottom: 8px;
+						// margin-top: 0px;
+					 }
+				 
+
 }
 
+.btn__btn-link{
+    position: absolute;
+	top: 25px;
+    right: 100px;
+    padding: 15px 30px;
+    cursor: pointer;
+    border: 1px solid #fff;
+    
+//    @include backg(#fff, transparent);
+    
+         &:hover{
+            background-color: #083c96;
+            color: #fff;
+            transition: all .3s;
+  }
+}
+
+.social-icons{
+   
+    
+    .social-icons__list{
+         display: inline-block;
+    }
+        .social-icons__item{
+            list-style: none;
+    }
+            .social-icons__link{
+               width: 25px;
+            }      
+}
